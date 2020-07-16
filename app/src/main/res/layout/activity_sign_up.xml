@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="간편 회원가입"
+        android:textSize="45dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="아이디를 입력하세요"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="비밀번호를 입력하세요"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="회원가입"
+        android:textSize="40dp"
+        android:textStyle="normal"
+        android:background="@android:color/holo_blue_light"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디가 있으신가용?"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:background="@android:color/holo_orange_light"/>
+
+
+
+</LinearLayout>

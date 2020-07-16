@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "260029554805",
+    "firebase_url": "https://carousel-dfe78.firebaseio.com",
+    "project_id": "carousel-dfe78",
+    "storage_bucket": "carousel-dfe78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260029554805:android:7649113a9426e85787183c",
+        "android_client_info": {
+          "package_name": "com.example.recyclerview_homework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260029554805-pu9kkti9fcdtva4lq5dvpqeegbq87i9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-o8QufF3ryvvTaDnEzahAD8-QQ1k9lY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260029554805-pu9kkti9fcdtva4lq5dvpqeegbq87i9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
