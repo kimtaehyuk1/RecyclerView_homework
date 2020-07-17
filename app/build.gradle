@@ -7,6 +7,11 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.0"
 
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString() //뷰모델쓸라면 이거 꼭 해주기
+    }
+
     defaultConfig {
         applicationId "com.example.recyclerview_homework"
         minSdkVersion 16
@@ -33,6 +38,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation "androidx.fragment:fragment-ktx:1.2.4" //뷰모델의 임플리머트
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
